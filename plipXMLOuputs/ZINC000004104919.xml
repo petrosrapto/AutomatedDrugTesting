@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='ASCII'?>
+<report>
+  <plipversion>2.3.0</plipversion>
+  <bindingsite id="1" has_interactions="True">
+    <identifiers>
+      <longname>UNL</longname>
+      <ligtype>SMALLMOLECULE</ligtype>
+      <hetid>UNL</hetid>
+      <chain>A</chain>
+      <position>1</position>
+      <composite>False</composite>
+      <members>
+        <member id="1">UNL:A:1</member>
+      </members>
+      <smiles>COC1=C([O])C(=C(O[C@H]1[C@]12O[S@@]2(O1)O)[O])[O]</smiles>
+      <inchikey>AATHFBGYYSAYBM-UHFFFAOYSA-N
+</inchikey>
+    </identifiers>
+    <lig_properties>
+      <num_heavy_atoms>16</num_heavy_atoms>
+      <num_hbd>4</num_hbd>
+      <num_unpaired_hbd>0</num_unpaired_hbd>
+      <num_hba>8</num_hba>
+      <num_unpaired_hba>1</num_unpaired_hba>
+      <num_hal>0</num_hal>
+      <num_unpaired_hal>0</num_unpaired_hal>
+      <num_aromatic_rings>1</num_aromatic_rings>
+      <num_rotatable_bonds>2</num_rotatable_bonds>
+      <molweight>249.1748</molweight>
+      <logp>0.5255999999999998</logp>
+    </lig_properties>
+    <interacting_chains>
+      <interacting_chain id="1">A</interacting_chain>
+    </interacting_chains>
+    <bs_residues>
+      <bs_residue id="1" contact="False" min_dist="3.4" aa="MET">72A</bs_residue>
+      <bs_residue id="2" contact="False" min_dist="6.6" aa="GLY">10A</bs_residue>
+      <bs_residue id="3" contact="True" min_dist="3.0" aa="ARG">68A</bs_residue>
+      <bs_residue id="4" contact="False" min_dist="7.3" aa="TYR">71A</bs_residue>
+      <bs_residue id="5" contact="False" min_dist="5.4" aa="ALA">59A</bs_residue>
+      <bs_residue id="6" contact="False" min_dist="3.4" aa="VAL">103A</bs_residue>
+      <bs_residue id="7" contact="True" min_dist="2.7" aa="ASP">69A</bs_residue>
+      <bs_residue id="8" contact="False" min_dist="4.9" aa="HIS">95A</bs_residue>
+      <bs_residue id="9" contact="False" min_dist="7.3" aa="MET">67A</bs_residue>
+      <bs_residue id="10" contact="False" min_dist="5.4" aa="VAL">7A</bs_residue>
+      <bs_residue id="11" contact="False" min_dist="7.2" aa="LEU">56A</bs_residue>
+      <bs_residue id="12" contact="False" min_dist="5.2" aa="SER">65A</bs_residue>
+      <bs_residue id="13" contact="False" min_dist="6.2" aa="ARG">73A</bs_residue>
+      <bs_residue id="14" contact="False" min_dist="3.3" aa="TYR">64A</bs_residue>
+      <bs_residue id="15" contact="False" min_dist="7.3" aa="ALA">66A</bs_residue>
+      <bs_residue id="16" contact="False" min_dist="3.9" aa="TYR">96A</bs_residue>
+      <bs_residue id="17" contact="False" min_dist="4.0" aa="ILE">100A</bs_residue>
+      <bs_residue id="18" contact="False" min_dist="6.2" aa="GLN">70A</bs_residue>
+      <bs_residue id="19" contact="False" min_dist="5.3" aa="GLU">37A</bs_residue>
+      <bs_residue id="20" contact="False" min_dist="6.7" aa="VAL">8A</bs_residue>
+      <bs_residue id="21" contact="False" min_dist="6.0" aa="GLY">60A</bs_residue>
+      <bs_residue id="22" contact="False" min_dist="3.9" aa="VAL">9A</bs_residue>
+      <bs_residue id="23" contact="True" min_dist="3.3" aa="GLN">99A</bs_residue>
+      <bs_residue id="24" contact="False" min_dist="4.5" aa="PHE">78A</bs_residue>
+      <bs_residue id="25" contact="False" min_dist="4.4" aa="THR">58A</bs_residue>
+      <bs_residue id="26" contact="False" min_dist="3.2" aa="GLU">63A</bs_residue>
+      <bs_residue id="27" contact="False" min_dist="5.2" aa="GLU">62A</bs_residue>
+      <bs_residue id="28" contact="True" min_dist="3.3" aa="ARG">102A</bs_residue>
+      <bs_residue id="29" contact="False" min_dist="6.4" aa="GLU">98A</bs_residue>
+    </bs_residues>
+    <interactions>
+      <hydrophobic_interactions/>
+      <hydrogen_bonds>
+        <hydrogen_bond id="1">
+          <resnr>69</resnr>
+          <restype>ASP</restype>
+          <reschain>A</reschain>
+          <resnr_lig>1</resnr_lig>
+          <restype_lig>UNL</restype_lig>
+          <reschain_lig>A</reschain_lig>
+          <sidechain>True</sidechain>
+          <dist_h-a>2.09</dist_h-a>
+          <dist_d-a>2.70</dist_d-a>
+          <don_angle>121.15</don_angle>
+          <protisdon>True</protisdon>
+          <donoridx>524</donoridx>
+          <donortype>O3</donortype>
+          <acceptoridx>1354</acceptoridx>
+          <acceptortype>O2</acceptortype>
+          <ligcoo>
+            <x>-5.001</x>
+            <y>3.935</y>
+            <z>-26.088</z>
+          </ligcoo>
+          <protcoo>
+            <x>-6.069</x>
+            <y>4.564</y>
+            <z>-28.484</z>
+          </protcoo>
+        </hydrogen_bond>
+        <hydrogen_bond id="2">
+          <resnr>69</resnr>
+          <restype>ASP</restype>
+          <reschain>A</reschain>
+          <resnr_lig>1</resnr_lig>
+          <restype_lig>UNL</restype_lig>
+          <reschain_lig>A</reschain_lig>
+          <sidechain>True</sidechain>
+          <dist_h-a>2.31</dist_h-a>
+          <dist_d-a>2.70</dist_d-a>
+          <don_angle>103.02</don_angle>
+          <protisdon>False</protisdon>
+          <donoridx>1354</donoridx>
+          <donortype>O2</donortype>
+          <acceptoridx>524</acceptoridx>
+          <acceptortype>O3</acceptortype>
+          <ligcoo>
+            <x>-5.001</x>
+            <y>3.935</y>
+            <z>-26.088</z>
+          </ligcoo>
+          <protcoo>
+            <x>-6.069</x>
+            <y>4.564</y>
+            <z>-28.484</z>
+          </protcoo>
+        </hydrogen_bond>
+        <hydrogen_bond id="3">
+          <resnr>69</resnr>
+          <restype>ASP</restype>
+          <reschain>A</reschain>
+          <resnr_lig>1</resnr_lig>
+          <restype_lig>UNL</restype_lig>
+          <reschain_lig>A</reschain_lig>
+          <sidechain>True</sidechain>
+          <dist_h-a>2.97</dist_h-a>
+          <dist_d-a>3.92</dist_d-a>
+          <don_angle>167.02</don_angle>
+          <protisdon>False</protisdon>
+          <donoridx>1356</donoridx>
+          <donortype>O2</donortype>
+          <acceptoridx>524</acceptoridx>
+          <acceptortype>O3</acceptortype>
+          <ligcoo>
+            <x>-2.605</x>
+            <y>3.493</y>
+            <z>-26.997</z>
+          </ligcoo>
+          <protcoo>
+            <x>-6.069</x>
+            <y>4.564</y>
+            <z>-28.484</z>
+          </protcoo>
+        </hydrogen_bond>
+        <hydrogen_bond id="4">
+          <resnr>99</resnr>
+          <restype>GLN</restype>
+          <reschain>A</reschain>
+          <resnr_lig>1</resnr_lig>
+          <restype_lig>UNL</restype_lig>
+          <reschain_lig>A</reschain_lig>
+          <sidechain>False</sidechain>
+          <dist_h-a>2.55</dist_h-a>
+          <dist_d-a>3.29</dist_d-a>
+          <don_angle>133.03</don_angle>
+          <protisdon>False</protisdon>
+          <donoridx>1360</donoridx>
+          <donortype>O2</donortype>
+          <acceptoridx>777</acceptoridx>
+          <acceptortype>O2</acceptortype>
+          <ligcoo>
+            <x>-5.428</x>
+            <y>3.999</y>
+            <z>-23.525</z>
+          </ligcoo>
+          <protcoo>
+            <x>-7.406</x>
+            <y>6.463</y>
+            <z>-22.612</z>
+          </protcoo>
+        </hydrogen_bond>
+        <hydrogen_bond id="5">
+          <resnr>102</resnr>
+          <restype>ARG</restype>
+          <reschain>A</reschain>
+          <resnr_lig>1</resnr_lig>
+          <restype_lig>UNL</restype_lig>
+          <reschain_lig>A</reschain_lig>
+          <sidechain>True</sidechain>
+          <dist_h-a>2.78</dist_h-a>
+          <dist_d-a>3.34</dist_d-a>
+          <don_angle>116.72</don_angle>
+          <protisdon>True</protisdon>
+          <donoridx>810</donoridx>
+          <donortype>Ng+</donortype>
+          <acceptoridx>1354</acceptoridx>
+          <acceptortype>O2</acceptortype>
+          <ligcoo>
+            <x>-5.001</x>
+            <y>3.935</y>
+            <z>-26.088</z>
+          </ligcoo>
+          <protcoo>
+            <x>-5.621</x>
+            <y>7.070</y>
+            <z>-27.069</z>
+          </protcoo>
+        </hydrogen_bond>
+      </hydrogen_bonds>
+      <water_bridges/>
+      <salt_bridges>
+        <salt_bridge id="1">
+          <resnr>68</resnr>
+          <restype>ARG</restype>
+          <reschain>A</reschain>
+          <prot_idx_list>
+            <idx id="1">514</idx>
+            <idx id="2">516</idx>
+            <idx id="3">517</idx>
+          </prot_idx_list>
+          <resnr_lig>1</resnr_lig>
+          <restype_lig>UNL</restype_lig>
+          <reschain_lig>A</reschain_lig>
+          <dist>4.69</dist>
+          <protispos>True</protispos>
+          <lig_group>Carboxylate</lig_group>
+          <lig_idx_list>
+            <idx id="1">1350</idx>
+            <idx id="2">1356</idx>
+          </lig_idx_list>
+          <ligcoo>
+            <x>-2.220</x>
+            <y>3.415</y>
+            <z>-25.942</z>
+          </ligcoo>
+          <protcoo>
+            <x>-0.448</x>
+            <y>-0.928</y>
+            <z>-25.863</z>
+          </protcoo>
+        </salt_bridge>
+        <salt_bridge id="2">
+          <resnr>68</resnr>
+          <restype>ARG</restype>
+          <reschain>A</reschain>
+          <prot_idx_list>
+            <idx id="1">514</idx>
+            <idx id="2">516</idx>
+            <idx id="3">517</idx>
+          </prot_idx_list>
+          <resnr_lig>1</resnr_lig>
+          <restype_lig>UNL</restype_lig>
+          <reschain_lig>A</reschain_lig>
+          <dist>4.40</dist>
+          <protispos>True</protispos>
+          <lig_group>Carboxylate</lig_group>
+          <lig_idx_list>
+            <idx id="1">1366</idx>
+            <idx id="2">1365</idx>
+          </lig_idx_list>
+          <ligcoo>
+            <x>-0.011</x>
+            <y>2.520</y>
+            <z>-23.160</z>
+          </ligcoo>
+          <protcoo>
+            <x>-0.448</x>
+            <y>-0.928</y>
+            <z>-25.863</z>
+          </protcoo>
+        </salt_bridge>
+        <salt_bridge id="3">
+          <resnr>68</resnr>
+          <restype>ARG</restype>
+          <reschain>A</reschain>
+          <prot_idx_list>
+            <idx id="1">514</idx>
+            <idx id="2">516</idx>
+            <idx id="3">517</idx>
+          </prot_idx_list>
+          <resnr_lig>1</resnr_lig>
+          <restype_lig>UNL</restype_lig>
+          <reschain_lig>A</reschain_lig>
+          <dist>4.40</dist>
+          <protispos>True</protispos>
+          <lig_group>Sulfonicacid</lig_group>
+          <lig_idx_list>
+            <idx id="1">1363</idx>
+            <idx id="2">1363</idx>
+            <idx id="3">1364</idx>
+            <idx id="4">1365</idx>
+            <idx id="5">1366</idx>
+          </lig_idx_list>
+          <ligcoo>
+            <x>-0.010</x>
+            <y>2.520</y>
+            <z>-23.159</z>
+          </ligcoo>
+          <protcoo>
+            <x>-0.448</x>
+            <y>-0.928</y>
+            <z>-25.863</z>
+          </protcoo>
+        </salt_bridge>
+      </salt_bridges>
+      <pi_stacks/>
+      <pi_cation_interactions/>
+      <halogen_bonds/>
+      <metal_complexes/>
+    </interactions>
+    <mappings>
+      <smiles_to_pdb>3:1348,10:1349,9:1350,8:1351,6:1352,4:1353,7:1354,16:1356,1:1358,2:1359,5:1360,11:1362,13:1363,15:1364,12:1365,14:1366</smiles_to_pdb>
+    </mappings>
+  </bindingsite>
+  <date_of_creation>2024/03/08</date_of_creation>
+  <citation_information>Adasme,M. et al. PLIP 2021: expanding the scope of the protein-ligand interaction profiler to DNA and RNA. Nucl. Acids Res. (05 May 2021), gkab294. doi: 10.1093/nar/gkab294</citation_information>
+  <maintainer_information>PharmAI GmbH (2020-2021) - www.pharm.ai - hello@pharm.ai</maintainer_information>
+  <mode>default</mode>
+  <pdbid>7RPZ</pdbid>
+  <model>1</model>
+  <filetype>PDB</filetype>
+  <pdbfile>/opt/plip-web/job-results/c69f0f05-7bba-4cc9-9cce-feeb4272675d/outputs/plipfixed.ZINC000004104919_zc3ii32u.pdb</pdbfile>
+  <pdbfixes>True</pdbfixes>
+  <filename>plipfixed.ZINC000004104919_zc3ii32u.pdb</filename>
+  <excluded_ligands/>
+  <covlinkages/>
+</report>
