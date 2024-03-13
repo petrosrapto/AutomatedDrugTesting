@@ -17,7 +17,13 @@ The above three phases (combined with the intermediate steps) require at least 1
 The entire process described above can be automated using the scripts available in this repository. As a result, the 911 compounds can produce the desired outputs in **maximum 15 hours** without the presence of a human! Huge time saving and effort for the researcher.
 
 ### => Phase 1: Webina
+Using python and its library "selenium", I developed a program (just like a "bot") that opens 10 taps in parallel, interacts with the Webina website, clicks the appropriate buttons, submits files, fills some input fields, starts the simulation, waits for it to end, downloads the results and process them in the right format. When the previously mentioned procedure is completed for all the 911 compounds, the results are inserted to a database and exported to an excel.
 
+### => Phase 2: PyRx
+Using python and its library "pyautogui", I developed a program (just like a "bot") that opens the cscript, interacts with the PyRx application, import files, clicks the appropriate buttons and exports files in the right format.
+
+### => Phase 3: PLIP
+Using python and its library "selenium", I developed a program (just like a "bot") that opens 10 taps in parallel, interacts with the PLIP website, clicks the appropriate buttons, submits files, fills some input fields, starts the simulation, waits for it to end, downloads the results and process them in the right format. When the previously mentioned procedure is completed for all the 911 compounds, the results are inserted to a database and exported to an excel.
 
 ## How to deploy
 - `git clone` the current repository to your directory and enter it
@@ -64,3 +70,51 @@ Project's Folder/
 
 ### => Phase 2: PyRx
 Write and execute the command in your (windows) cmd: `python pyrx.py`
+>> Requirements: <br>
+
+PyRx app installed as 'cscript' at path 'C:\Program Files (x86)\PyRx\PyRx.vbs' (windows) <br>
+The folder structure must be the following: <br>
+```
+Project's Folder/
+├── pyrx.py
+└── webinaPDBQTOutputs
+```
+
+>> Directories made: <br>
+
+```
+Project's Folder/
+├── pyrxPDBOuputs: contains the output files of the PyRx execution with the same compound name and .pdb extension
+└── PDBQTmodel1: contains the output files of the webina execution but only the first model
+```
+
+### => Phase 3: PLIP
+Write and execute the command in your (linux) terminal: `python plip.py`
+>> Requirements: <br>
+
+googlechrome driver installed at the path '/usr/local/bin/chromedriver' <br>
+The folder structure must be the following: <br>
+```
+Project's Folder/
+├── compounds.db
+├── plip.py
+├── 7RPZ_final.pdb
+└── pyrxPDBOutputs folder which include the outputs of the pyrx execution with extension .pdb
+```
+
+>> Directories made: <br>
+
+```
+Project's Folder/
+├── compoundsWithFinal: contains the output files of the pyrx execution with extension .pdb combined with the 7RPZ_final.pdb
+├── plipXMLOuputs:      contains the XML output files of the PLIP execution
+├── plipTXTOuputs:      contains the TXT output files of the PLIP execution
+├── URLs.xlsx:          contains the PLIP's URLs for each compound, in that URL the results are shown in detail
+└── Downloads:          temporary directory that holds the downloads of the website
+```
+
+### Final Results and Prospective Development
+The directories `plipXMLOuputs`, `plipTXTOuputs`, `URLs.xlsx` are the desired results derived from the above automated process.
+
+The researcher must assess the bonds shown in the PLIP results for each compound and decide which is the best candidate. Even giving a glance to the results by a human is time-consuming and not reliable (we have 909 compounds x at least 30 seconds = **7.5 hours**). The reasoning process behind comparing the results, eliminating compounds and pick the best one could be depicted by an algorithm which could assign a score to each compound automatically. This score would be a function that illustrates the weight of each kind of bond (for instance) that is present in the PLIP results. Alternatively we could compare each compound with all the others, eliminating all the compounds that clearly (according to some objective criteria) are inferior. <br>
+So we could insert the plipXMLOuputs into the database and then execute the above algorithm in order to obtain the best compound candidate.
