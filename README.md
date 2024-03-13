@@ -19,6 +19,10 @@ The entire process described above can be automated using the scripts available 
 ### => Phase 1: Webina
 Using python and its library "selenium", I developed a program (just like a "bot") that opens 10 taps in parallel, interacts with the Webina website, clicks the appropriate buttons, submits files, fills some input fields, starts the simulation, waits for it to end, downloads the results and process them in the right format. When the previously mentioned procedure is completed for all the 911 compounds, the results are inserted to a database and exported to an excel.
 
+![Webina Gif](webina.gif)
+
+> Note: The interactions with the website above are automated and they are not made by the user!
+
 ### => Phase 2: PyRx
 Using python and its library "pyautogui", I developed a program (just like a "bot") that opens the cscript, interacts with the PyRx application, import files, clicks the appropriate buttons and exports files in the right format.
 
