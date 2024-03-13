@@ -29,6 +29,10 @@ Using python and its library "pyautogui", I developed a program (just like a "bo
 ### => Phase 3: PLIP
 Using python and its library "selenium", I developed a program (just like a "bot") that opens 10 taps in parallel, interacts with the PLIP website, clicks the appropriate buttons, submits files, fills some input fields, starts the simulation, waits for it to end, downloads the results and process them in the right format. When the previously mentioned procedure is completed for all the 911 compounds, the results are inserted to a database and exported to an excel.
 
+![PLIP Gif](plip.gif)
+
+> Note: The interactions with the website above are automated and they are not made by the user!
+
 ## How to deploy
 - `git clone` the current repository to your directory and enter it
 - `pip install -r requirements.txt` to install the required packages
